@@ -1,9 +1,22 @@
 .blog-container {
     display: flex;
-    height: 10vh;
-    width: 20%;
+    height: 15vh;
+    width: 70%;
+    border: 2px solid gray;
 }
 .blog-image > img {
-    height: 15vh;
+    height: 9vh;
     margin: 10px;
+}
+.blog-header {
+    display: flex;
+    flex-direction: column;
+    
+}
+.blog-header > h2 {
+    text-align: center;
+}
+.content{
+    display: flex;
+    margin: auto;
 }
