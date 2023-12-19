@@ -1,10 +1,11 @@
+/* eslint-disable no-unused-vars */
+import BlogCard from './components/BlogCard'
 import './App.css'
 
 function App() {
-
   return (
     <>
-      <h1>Başlangıç</h1>
+      <BlogCard />
     </>
   )
 }
