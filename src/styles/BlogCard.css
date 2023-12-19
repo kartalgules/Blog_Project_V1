@@ -1,17 +1,28 @@
 .blog-container {
     display: flex;
-    height: 15vh;
-    width: 70%;
+    flex-direction: column;
+    height: 13vh;
+    width: 80%;
     border: 2px solid gray;
 }
-.blog-image > img {
-    height: 9vh;
-    margin: 10px;
+.content-header {
+    height: 23%;
+    margin-left: 15px;
+}
+.blog-detail {
+    color: gray;
+    margin: auto 0;
+}
+.blog-detail > p {
+    display: inline-block;
+}
+.blog-detail > p > span {
+    color: #f1ab8d;
+    font-weight: 600;
 }
 .blog-header {
     display: flex;
     flex-direction: column;
-    
 }
 .blog-header > h2 {
     text-align: center;
@@ -19,4 +30,8 @@
 .content{
     display: flex;
     margin: auto;
+}
+.blog-image > img {
+    height: 9vh;
+    margin: 0 10px;
 }
