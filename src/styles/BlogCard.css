@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: column;
     height: 13vh;
-    width: 80%;
+    width: 60%;
     border: 2px solid gray;
+    margin: 25px;
 }
 .content-header {
     height: 23%;
-    margin-left: 15px;
+    margin: 0 15px;
 }
 .blog-detail {
     color: gray;
@@ -15,6 +16,7 @@
 }
 .blog-detail > p {
     display: inline-block;
+
 }
 .blog-detail > p > span {
     color: #f1ab8d;
@@ -29,9 +31,9 @@
 }
 .content{
     display: flex;
-    margin: auto;
+    margin: auto 10px;
 }
 .blog-image > img {
     height: 9vh;
-    margin: 0 10px;
+    margin-right:10px;
 }
