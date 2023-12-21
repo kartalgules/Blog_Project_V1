@@ -27,6 +27,7 @@ function BlogCard() {
               on November 17th. According to reports, NVIDIA has increased
               shipments of the GeForce RTX 4090 graphics card to China.
             </p>
+            <a href="#" className="read-more">Read more..</a>
           </div>
         </div>
     </div>
