@@ -7,9 +7,12 @@ function Navbar() {
     <div className="navbar-container">
       <div className="navbar-header">
         <div className="logo">
-          <h2>BLOG</h2>
+          <h1>BLOG</h1>
         </div>
         <div className="navbar">
+          <a href="#">Home</a>
+          <a href="#">Blogs</a>
+          <a href="#">Logout</a>
             {/* <NavLink to="/">Home</NavLink>
             <NavLink to="">Blogs</NavLink>
             <NavLink to={<Logout />}>Logout</NavLink> */}
