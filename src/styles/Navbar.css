@@ -1,0 +1,9 @@
+.navbar-container {
+    display: flex;
+    height: 7vh;
+    background-image: linear-gradient(to bottom, #767676, #838383, #919191, #9f9f9f, #adadad, #b8b8b8, #c4c4c4, #cfcfcf, #dbdbdb, #e7e7e7, #f3f3f3, #ffffff);
+}
+.navbar-header {
+    width: 80%;
+    margin: auto;
+}
